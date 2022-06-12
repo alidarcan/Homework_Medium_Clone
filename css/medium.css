@@ -1,0 +1,50 @@
+body {
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: none;
+    color: black
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.bg-yellow {
+    background-color: #FFC017;
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid rgba(41,41,41,1);
+}
+
+.button-width {
+    width: 213px;
+}
+
+.img-20 {
+    height: 20px;
+}
+
+.aside-buttons > li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .display-1 {
+        font-size: 70px;
+        word-wrap: break-word;
+    }
+}
